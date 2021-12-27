@@ -8,36 +8,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <title>portfolio</title>
-    <link rel="stylesheet" href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css" />
+    <title>Портфоліо</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="stylse/reset.css">
     <link rel="stylesheet" href="stylse/styles.css">
 </head>
 <body>
     <header class="header">
         <div class="container header-box">
-            <section class="header-logo">
-                <a class="header-logo-link link" href="" lang="en"><span class="logo-color">Web</span>Studio </a>
-            </section>
+            <a class="header-logo-link link" href="" lang="en"><span class="logo-color">Web</span>Studio </a>
             <nav class="headr-nav">
                 <ul class="nav-list list">
-                    <li class="nav-item"><a class="nav link " href="./index.html"> Студия</a></li>
+                    <li class="nav-item"><a class="nav link" href="./index.html"> Студия</a></li>
                     <li class="nav-item"><a class="nav link current" href="">Портфолио</a></li>
                     <li class="nav-item"><a class="nav link" href="">Контакты</a></li>
                 </ul>
             </nav>
-            <section class="contact">
-                <ul class="contact-list list">
-                    <li class="contact-item"><a class="contact-link link"
-                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="contact-item"><a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-                    </li>
-                </ul>
-            </section>
+            <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
         </div>
     </header>
-    <main class="filter">
-        <section>
+    <main >
+        <section class="project">
             <div class="container">
             <ul class="filter-list list ">
                 <li class="filter-item"><input class="filter-btn btn-current" type="button" value="Все"></li>
@@ -46,72 +40,98 @@
                 <li class="filter-item"><input class="filter-btn" type="button" value="Дизайн"></li>
                 <li class="filter-item"><input class="filter-btn" type="button" value="Маркетинг"></li>
             </ul>
-            </div>
-            <div class="container">
-            <ul class="projeсt-list list">
+            <ul class="project-list">
                 <li class="project-item">
                     <img class="projeсt-image" src="./images/p-1.jpg" 
                     alt="Екран ноутбука на якому зображено сайт" 
                     width="370">
-                    <h3 class="projeсt-name">Технокряк</h3>
-                    <p class="projeсt-part">Веб-сайт</p>
+                    <div class="project-card">
+                        <h3 class="projeсt-name">Технокряк</h3>
+                        <p class="projeсt-part">Веб-сайт</p>
+                    </div>
+                    
                 </li>
                 <li class="project-item">
                     <img class="projeсt-image" src="./images/p-2.jpg" 
                     alt="два гравці баскетболу" 
                     width="370">
-                <h3 class="projeсt-name">Постер <span lang="en">New Orlean vs Golden Star</span> </h3>
-                <p class="projeсt-part">Дизайн</p>
+                    <div class="project-card">
+                        <h3 class="projeсt-name">Постер <span lang="en">New Orlean vs Golden Star</span> </h3>
+                        <p class="projeсt-part">Дизайн</p>
+                    </div>
+                
                 </li>
                 <li class="project-item">
                     <img class="projeсt-image" src="./images/p-3.jpg" 
                     alt="логотип ресторану з рибою" 
                     width="370">
-                <h3 class="projeсt-name">Ресторан <span lang="en">Seafood</span> </h3>
-                <p class="projeсt-part">Приложение</p>
+                    <div class="project-card">
+                        <h3 class="projeсt-name">Ресторан <span lang="en">Seafood</span> </h3>
+                        <p class="projeсt-part">Приложение</p>
+                    </div>
+                
                 </li>
                 <li class="project-item">
                     <img class="projeсt-image" src="./images/p-4.jpg"
                     alt="навушники" 
                     width="370">
-                <h3 class="projeсt-name">Проект <span lang="en">Prime</span> </h3>
-                <p class="projeсt-part">Маркетинг</p>
+                    <div class="project-card">
+                        <h3 class="projeсt-name">Проект <span lang="en">Prime</span> </h3>
+                        <p class="projeсt-part">Маркетинг</p>
+                    </div>
+                
                 </li>
                 <li class="project-item">
                     <img class="projeсt-image" src="./images/p-5.jpg"
                     alt="дві коробки" 
                     width="370">
-                <h3 class="projeсt-name">Проект <span lang="en">Boxes</span> </h3>
-                <p class="projeсt-part">Приложение</p>
+                    <div class="project-card"><h3 class="projeсt-name">Проект <span lang="en">Boxes</span> </h3>
+                    <p class="projeсt-part">Приложение</p>
+                </div>
+                
                 </li>
                 <li class="project-item">
                     <img class="projeсt-image" src="./images/p-6.jpg" 
                     alt="компютер" 
                     width="370">
-                <h3 class="projeсt-name" lang="en">Inspiration has no Borders</h3>
-                <p class="projeсt-part">Веб-сайт</p>
+                    <div class="project-card">
+                        <h3 class="projeсt-name" lang="en">Inspiration has no Borders</h3>
+                        <p class="projeсt-part">Веб-сайт</p>
+                    </div>
+                
                 </li>
                 <li class="project-item">
                     <img class="projeсt-image" src="./images/p-7.jpg" 
                     alt="книга" 
                     width="370">
-                <h3 class="projeсt-name">Издание <span lang="en">Limited Edition</span> </h3>
-                <p class="projeсt-part">Дизайн</p>
+                    <div class="project-card">
+                        <h3 class="projeсt-name">Издание <span lang="en">Limited Edition</span> </h3>
+                        <p class="projeсt-part">Дизайн</p>
+                    </div>
+                
                 </li>
                 <li class="project-item">
                     <img class="projeсt-image" src="./images/p-8.jpg" 
                     alt="етікетка" 
                     width="370">
-                <h3 class="projeсt-name">Проект <span lang="en">LAB</span> </h3>
-                <p class="projeсt-part">Маркетинг</p>
+                    <div class="project-card">
+                        <h3 class="projeсt-name">Проект <span lang="en">LAB</span> </h3>
+                        <p class="projeсt-part">Маркетинг</p>
+                    </div>
+                
                 </li>
                 <li class="project-item">
                     <img class="projeсt-image" src="./images/p-9.jpg" 
                     alt="компютер" 
                     width="370">
-                <h3 class="projeсt-name" lang="en">Growing Business</h3>
-                <p class="projeсt-part">Приложение</p></li>
+                    <div class="project-card">
+                        <h3 class="projeсt-name" lang="en">Growing Business</h3>
+                        <p class="projeсt-part">Приложение</p>
+                    </div>
+                
+                </li>
             </ul>
+            
             </div>
         </section>
     </main>
@@ -121,15 +141,10 @@
             <a class="footer-logo-link link" href="" lang="en"><span class="logo-color">Web</span>Studio </a>
             <address class="footer-adr"><a class="footer-map link" href="https://goo.gl/maps/GrZTc98YmpMvjkZD6"
                     target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси
-                    Украинки, 26</a></address>
-            <ul class="footer-list list">
-                <li class="footer-item">
-                    <a class="footer-list-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a class="footer-list-link link" href="tel:+380961111111">+38 099 111 11 11</a>
-                </li>
-            </ul>
+                    Украинки, 26</a>
+            </address>
+            <a class="footer-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="footer-link link" href="tel:+380961111111">+38 099 111 11 11</a>
         </div>
     </section>
 </footer>
